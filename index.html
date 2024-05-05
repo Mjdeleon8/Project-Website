@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CamStore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+  </head>
+  <body>
+    <header id="main">
+      <img src="./images/logo.png" />
+      <div class="nav-text">
+        <h1>CamStore</h1>
+      </div>
+      <nav>
+        <ul id="nav-content">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Social</a></li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-bars" id="bar"></i>
+    </header>
+    <section>
+      <div class="top-main-container">
+        <div class="background-image-container">
+          <div class="background-image-content">
+            <div class="img-separator-one">
+              <img
+                class="background-images"
+                id="image-one"
+                src="./images/gr-background-image.png"
+                alt=""
+              />
+            </div>
+            <!-- <div class="img-separator-two">
+              <img
+                class="background-images"
+                id="image-two"
+                src="./images/husky-background.png"
+                alt=""
+              />
+            </div> -->
+          </div>
+        </div>
+        <div class="transbox">
+          <div class="main-container-animationHandler">
+            <div class="main-container-title">
+              <div class="main-container-title-first_letter">
+                <span>C</span>
+                <img class="title-image" src="./images/textImage.png" alt="" />
+              </div>
+              <span>a</span>
+              <span>m</span>
+              <span>s</span>
+              <span>t</span>
+              <span>o</span>
+              <span>r</span>
+              <span>e</span>
+            </div>
+          </div>
+          <!-- <div class="circle-container">
+            <div class="circle-content">
+              <div class="arrow-down down"></div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Homepage -->
+
+    <section id="homepage-container" class="homepage-main-handler">
+      <div class="playground-container">
+        <div class="first-crop-img">
+          <img id="first-img" src="./homepage-images/top.png" alt="" />
+        </div>
+        <div class="first-crop">
+          <img id="second-img" src="./homepage-images/secondCrop.png" alt="" />
+        </div>
+        <div class="first-crop">
+          <img id="third-img" src="./homepage-images/thirdCrop.png" alt="" />
+        </div>
+        <div class="first-crop">
+          <img id="fourth-img" src="./homepage-images/lastCrop.png" alt="" />
+        </div>
+      </div>
+      <div class="random-image-container">
+        <div class="second-crop">
+          <img id="random-img-one" src="./homepage-images/dogFoot.png" />
+        </div>
+        <div class="second-crop">
+          <img id="random-img-two" src="./homepage-images/kittyhead.png" />
+        </div>
+        <div class="second-crop">
+          <img id="random-img-three" src="./homepage-images/dogtoy.png" />
+        </div>
+      </div>
+      <div class="homepage-content">
+        <div class="greet-about">
+          <div class="greet-content">
+            <h1>Hello, Welcome To Camstore</h1>
+            <div class="greet-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus quaerat harum provident quidem nostrum nesciunt
+                recusandae dicta quibusdam quam blanditiis! Optio nobis neque
+                tenetur adipisci debitis, dignissimos impedit temporibus culpa
+                alias et dolor consectetur ratione officia natus consequatur sit
+                esse.
+              </p>
+            </div>
+          </div>
+          <div class="about-content">
+            <h1>About Store</h1>
+            <div class="about-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                odit expedita repellendus natus unde minima eos, veniam, tempore
+                quibusdam nulla, ducimus mollitia maiores assumenda pariatur quo
+                ipsum nisi recusandae odio. Minima laboriosam, corrupti
+                quibusdam explicabo numquam sed libero sint molestiae? Assumenda
+                soluta odit harum necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="homepage-images">
+          <div class="imagehandler">
+            <img src="./images/slider-image-one.jpg" alt="" />
+          </div>
+          <div class="imagehandler">
+            <img
+              class="homepage-second-image"
+              src="./images/slider-image-two.png"
+              alt=""
+            />
+          </div>
+          <div class="imagehandler">
+            <img src="./images/slider-image-three.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="homepage-animate-image">
+        <img
+          class="husky"
+          id="huskyImage"
+          src="./images/husky-background.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- PRODUCT CONTAINER -->
+
+    <section id="product-container" class="product-background-color">
+      <div id="slide-container" class="product-wrapper">
+        <div class="wrapper-title-handler">
+          <div id="title-one" class="slide-title-one">
+            <div id="firstLetterTitle" class="firstLetterContainer">
+              <div class="firstLetterWrapper">
+                <span>C</span>
+                <img
+                  class="firstLetterImg"
+                  src="./images/textImage.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <span id="secondLetterTitle">A</span>
+            <!-- <span>A</span> -->
+            <span id="thirdLetterTitle">M</span>
+            <!-- <span>M</span> -->
+            <span id="fourthLetterTitle">S</span>
+            <!-- <span>S</span> -->
+            <span id="fifthLetterTitle">T</span>
+            <!-- <span>T</span> -->
+            <span id="sixthLetterTitle">O</span>
+            <!-- <span>O</span> -->
+            <span id="seventhLetterTitle">R</span>
+            <!-- <span>R</span> -->
+            <span id="eightLetterTitle">E</span>
+            <!-- <span>E</span> -->
+          </div>
+          <hr class="wrapper-line" />
+          <div id="title-two" class="slide-title-two">
+            <span>P</span>
+            <span>R</span>
+            <span>O</span>
+            <span>D</span>
+            <span>U</span>
+            <span>C</span>
+            <span>T</span>
+            <span>S</span>
+          </div>
+        </div>
+      </div>
+      <div id="dummyContainer" class="dummyContainerRight"></div>
+      <div class="first-row-products">
+        <div class="product-handler">
+          <div class="product-one">
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-two">
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-three">
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="product-containerHandler">
+                <div class="product-image-container">
+                  <img
+                    class="row-products-image-size"
+                    src="./images/herbal-soap.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="container-content">
+                  <div>
+                    <p class="decrease-size">
+                      VetCore+Premium Herbal Dog Soap 120g
+                    </p>
+                  </div>
+                  <div>
+                    <h2 class="pricing">₱150</h2>
+                  </div>
+                  <div class="star-sell-paragraph-alignment">
+                    <div class="star-handler">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <div class="sell-paragraph">
+                        <p>10K+ sold</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="decrease-size" style="color: grey">
+                      Bacoor, Cavite
+                    </p>
+                  </div>
+                  <div class="buy-container">
+                    <div class="buy-wrapper">
+                      <h2><i>Buy now!</i></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer id="footer-container">
+      <a href="#main">ASJDSAJKASJDKASJD</a>
+
+      <div class="footer-columns-container">
+        <div class="columns-separator">
+          <div class="column-separator-one">
+            <div class="first-column">
+              <h3>Explore</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="second-column">
+              <h3>Visit</h3>
+              <p class="footer-content">
+                BLK 7 LOT 20 Adelfa Street <br />
+                Gawaran Molino VII <br />
+                Bacoor City, Cavite
+              </p>
+            </div>
+          </div>
+          <div class="column-separator-two">
+            <div class="third-column">
+              <h3>Follow</h3>
+              <ul>
+                <li>
+                  <a class="shopee-icon" href="#"
+                    ><i class="fa-brands fa-shopify"></i>Shopee</a
+                  >
+                </li>
+                <li>
+                  <a class="facebook-icon" href="#"
+                    ><i class="fa-brands fa-facebook"></i>Facebook</a
+                  >
+                </li>
+                <li>
+                  <a class="instagram-icon" href="#"
+                    ><i class="fa-brands fa-instagram"></i>Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="fourth-column">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-height-line">
+        <hr class="footer-line" />
+      </div>
+      <div class="final-container">
+        <div class="final-container-title">
+          <span class="first-letter-title">c</span>
+          <span>a</span>
+          <span>m</span>
+          <span style="text-transform: uppercase">s</span>
+          <span>t</span>
+          <span>o</span>
+          <span>r</span>
+          <span>e</span>
+        </div>
+        <div class="rights">
+          <p>© 2024 CamStore. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
